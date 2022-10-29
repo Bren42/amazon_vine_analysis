@@ -26,7 +26,10 @@ As mentioned earlier we would need to pick a dataset to work with to analyze rev
 
 From here we needed to filter and create new dataframes that could be used to upload our data into the postgress database we had already created tables for. 
 
+### Customers DataFrame and SQL Table
+_____________________________________
 ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/customers_table.png) ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/customers_table_pg.png)
-First we created a customers table, which was subsequently uploaded to Postgres. As you will see we chose to make sure the count of values was verified after each upload to make sure that the dataframe came over to the tables correctly.
+
+First we created a customers table, which was subsequently uploaded to Postgres. As you will see we chose to make sure the count of values was verified after each upload to make sure that the dataframe came over to the tables correctly. in both cases we see 1045733 values
 
 
