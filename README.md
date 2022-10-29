@@ -17,7 +17,7 @@ as seen above here we are loading in our pyspark tools.
 
 In the image above you can see that we loaded our postgres drivers and then initialized our spark session.
 
-### Loading datasets and dataframe creation
+## Loading datasets and dataframe creation
 ___________________________________________
 
 As mentioned earlier we would need to pick a dataset to work with to analyze reviews. We chose the video games dataset and loaded that into a dataframe
