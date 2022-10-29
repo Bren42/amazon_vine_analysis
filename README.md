@@ -32,4 +32,13 @@ _____________________________________
 
 First we created a customers table, which was subsequently uploaded to Postgres. As you will see we chose to make sure the count of values was verified after each upload to make sure that the dataframe came over to the tables correctly. in both cases we see 1045733 values
 
+### Products DataFrame and SQL Table
+____________________________________
+
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/products_df.png) ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/products_table.png)
+
+The products dataframe and the completed table
+
+
+
 
