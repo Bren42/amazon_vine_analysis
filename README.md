@@ -39,6 +39,21 @@ ____________________________________
 
 The products dataframe and the completed table
 
+### Review ID DataFrame and SQL Table
+_____________________________________
+
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/review_id_df.png) ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/review_id_table.png)
+
+The review ID dataframe and completed table
+
+### Vine Dataframe and Table
+____________________________
+
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/vine_df.png) ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/vine_table.png)
+
+The vine dataframe and completed table
+
+
 
 
 
