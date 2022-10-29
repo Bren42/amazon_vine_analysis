@@ -53,7 +53,42 @@ ____________________________
 
 The vine dataframe and completed table
 
+## Review Data
+______________
 
+Now that we had completed creating and importing the dataframes over to our postrgress database it was time to pull the data we needed for analysis into a pandas dataframe. To do this we would export the Vine table into a CSV file and work with it in pandas.
+
+### Vine DF
+__________
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/vine_df_count.png)
+
+As seen here we pulled in the data and created a dataframe. For each filter or change made to the dataframe I made sure to do a count of each value so that we could confirm the data filters were working. 
+
+We needed to figure out what the percentage of 5 star reviews was for vine paid reviews, and unpaid reviews. To create a better review data set the first thing we did was create a new filtered dataframe that would only show reviews where the percentage of helpful votes were equal to or greater than 50%. 
+
+From there we needed to split the new dataframe even further so that there was one dataframe showing only the reviews from vine, and another dataframe that would show only unpaid reviewers.
+
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/greater_50_vinesplit.png)
+
+As you can see after performing those three operations we ended with two dataframes, one for paid vine reviews, 94 in total, and on for unpaid 40,471 in total.
+
+From these two dataframes we could explore further the percentages and determine if there was any bias in the reviews from the vine program.
+
+### Vine Reviews Complete
+First we would look at the vine reviewers data frame. We would want to understand the percentage of 5 star reviews to the whole. So we built two variables to create our comparison. A total reviews variable and a 5 stars review variable. Once we had those we could create a third variable to compare and grab a percentage.
+
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/vine_complete.png)
+
+As seen in the image above there were 94 total vine reviews and 48 of those were 5-Star reviews. This means that we had a total 5 star review percentage of 51%.
+
+
+
+### Unpaid DF
+_____________
+
+To get an understanding of whether or not there was any postive bias towards vine reviews we would now need to calculate for the unpaid reviews. We could utilize our prior code and just create new variables.
+
+![This is an image]
 
 
 
