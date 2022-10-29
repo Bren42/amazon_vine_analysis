@@ -8,6 +8,7 @@ How we set out to achieve this result was to look at datasets provided by amazon
 To complete this we first needed to bring the dataset in and begin creating tables in a database. We chose google colab notebooks to work with pyspark on the big data manipulation into PG admin. 
 
 ### Configuring our Tools
+__________________________
 ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/pyspark_init.png)
 
 as seen above here we are loading in our pyspark tools.
