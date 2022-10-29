@@ -10,7 +10,8 @@ To complete this we first needed to bring the dataset in and begin creating tabl
 ![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/pyspark_init.png)
 
 as seen above here we are loading in our pyspark tools.
-========================================================================================================================================================================
+## _____________________________________________________________________________________________________________________________________________________________
+## _____________________________________________________________________________________________________________________________________________________________
 
 ![this is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/postgres_pyspark_init.png)
 
