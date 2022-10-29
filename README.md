@@ -88,7 +88,38 @@ _____________
 
 To get an understanding of whether or not there was any postive bias towards vine reviews we would now need to calculate for the unpaid reviews. We could utilize our prior code and just create new variables.
 
-![This is an image]
+![This is an image](https://github.com/Bren42/amazon_vine_analysis/blob/main/images/unpaid_complete.png)
+
+As we can see the unpaid reviews greatly outnumber our paid reviews, this is to be expected. We also see that the percentage of 5-star reviews is far lower at 39%.
 
 
+## Results
+__________
 
+So our results are as follows
+
+ ### How many reviews versus vine reviews were there?
+ ________________________________________________
+ Vine Reviews: 94
+ Non-Vine Reviews: 40471
+ 
+ 
+ ### How many Vine reviews were 5-Star? How many Non-Vine reviews were 5-star?
+ _________________________________________________________________________
+ 
+Vine 5 Star: 48
+Non-Vine 5 Star: 15663
+
+
+### What percentage of Vine reviews were 5-star? what percentage of Non-Vine reviews were 5-star?
+_________________________________________________________________________________________________
+Vine 5 Star %: 51%
+Non-Vine 5 Star %: 39%
+
+
+## Summary
+__________
+
+Based on our analysis there is a clear postive bias of 12% when items are reviewed through the vine program versus when they are not as shown through our data analysis of the videogames review data set. We could also break this down into 1, 2, 3, and 4 star reviews to see if positive trending follows all reviews in our dataset to confirm this further. Although there is clearly a postive bias towards vine reviews in our data this does not confirm that this trend exists in other review datasets.
+
+If we truly wanted to establish a case for bias though it would benefit us to run reviews on other sample datasets available in Amazon S3 and perform this exact same process. If we were to see a clear bias in other data sets as well this would establish a better foundation to evaluate the bias that could exist in the program as a whole.
