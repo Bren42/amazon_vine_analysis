@@ -101,6 +101,7 @@ So our results are as follows
  ### How many reviews versus vine reviews were there?
  ________________________________________________
  Vine Reviews: 94
+ 
  Non-Vine Reviews: 40471
  
  
@@ -108,12 +109,14 @@ So our results are as follows
  _________________________________________________________________________
  
 Vine 5 Star: 48
+
 Non-Vine 5 Star: 15663
 
 
 ### What percentage of Vine reviews were 5-star? what percentage of Non-Vine reviews were 5-star?
 _________________________________________________________________________________________________
 Vine 5 Star %: 51%
+
 Non-Vine 5 Star %: 39%
 
 
